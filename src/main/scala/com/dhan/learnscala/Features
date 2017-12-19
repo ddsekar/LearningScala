@@ -1,0 +1,21 @@
+    Source Files
+    Packages
+    Package Objects
+    Imports
+    Type Aliases
+    Implicit Class
+    Traits
+
+    Generics
+    Variable Arguments
+    Default Arguments
+    Named Parameter
+    Lambdas
+
+    Pattern Matching
+    For Comprehensions
+    Currying
+    Functional Literals (tuples)
+    Tail Call Optimisation (@tailrec)
+
+    Implicit class
