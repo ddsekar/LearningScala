@@ -1,6 +1,6 @@
 package com.dhan.learnscala.ch2
 
-object Ch1RangeLoop {
+object Ch2RangeLoop {
 
   def main(arg: Array[String]): Unit = {
     println("----args <- 1 to 5------")
@@ -11,6 +11,16 @@ object Ch1RangeLoop {
     for (args <- 1 to 5 by 2) {
       println(args)
     }
+
+    println("i <- 1 to 5 if i % 2 ==0")
+    for(i <- 1 to 5 if i % 2 ==0) println (i)
+
+    for{
+      i <- 1 to 5
+      if i % 2 == 0
+    } println(i)
+
+    1.to(5).filter(i => i%2==0).foreach(println(_))
 
     println("----args <- 1 to 4------")
     for (args <- 1 until 5) {
@@ -35,7 +45,6 @@ object Ch1RangeLoop {
     for (args <- l) {
       println(args)
     }
-
   }
 
 }
